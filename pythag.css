@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    z-index: 0;
+}
+
+h1 {
+    color: white;
+}
+
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.opposite {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border: 10px solid darkred;
+    margin: 50px;
+
+}
+
+.adjacent {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border: 10px solid darkgreen;
+    margin: 50px;
+
+}
+
+.hypothenuse {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border: 10px solid darkblue;
+    margin: 50px;
+
+}
+
+.title-opposite {
+    color: white;
+    background-color: darkred;
+    margin-top: 0px;
+}
+
+.title-adjacent {
+    color: white;
+    background-color: darkgreen;
+    margin-top: 0px;
+}
+
+.title-hypothenuse {
+    color: white;
+    background-color: darkblue;
+    margin-top: 0px;
+}
