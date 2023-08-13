@@ -11,7 +11,7 @@ document.getElementById('calculate-opposite').onclick = function () {
     // finds the square root
    let result = Math.sqrt(resultSquared);
 // displays the result
-document.getElementById('opposite-result').innerHTML = result;
+document.getElementById('opposite-result').innerHTML = Math.round(result);
 
 }
 
@@ -28,7 +28,7 @@ document.getElementById('calculate-adjacent').onclick = function () {
     // finds the square root
    let result2 = Math.sqrt(resultSquared2);
 // displays the result
-document.getElementById('adjacent-result').innerHTML = result2;
+document.getElementById('adjacent-result').innerHTML = Math.round(result2);
 }
 
 // gets the button and calls a funtion to calculate the hypothenuse
@@ -43,6 +43,6 @@ document.getElementById('calculate-hypothenuse').onclick = function () {
     let resultSquared3 = oppositeSquared3 + adjacentSquared3;
      // finds the square root
     let result3 = Math.sqrt(resultSquared3);
-document.getElementById('hypothenuse-result').innerHTML = result3;
+document.getElementById('hypothenuse-result').innerHTML = Math.round(result3);
 }
 
